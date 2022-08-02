@@ -1,0 +1,28 @@
+ CREATE TABLE `dancing` (
+  `name` varchar(50) DEFAULT NULL,
+  `address` varchar(40) DEFAULT NULL,
+  `bdate` date DEFAULT NULL,
+  `gender` varchar(10) DEFAULT NULL
+)
+
+
+ CREATE TABLE `singing` (
+  `name` varchar(50) DEFAULT NULL,
+  `address` varchar(40) DEFAULT NULL,
+  `bdate` date DEFAULT NULL,
+  `gender` varchar(10) DEFAULT NULL
+)
+
+
+ CREATE TABLE `painting` (
+  `name` varchar(50) DEFAULT NULL,
+  `address` varchar(40) DEFAULT NULL,
+  `bdate` date DEFAULT NULL,
+  `gender` varchar(10) DEFAULT NULL
+)
+
+ CREATE TABLE `session_booking` (
+  `username` varchar(50) DEFAULT NULL,
+  `password` varchar(40) DEFAULT NULL,
+  `bdate` date DEFAULT NULL
+)
